@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    #root{
+        @apply text-sm md:text-base text-gray-500
+    }
+
+    *::-webkit-scrollbar {
+        @apply hidden
+    }
+
+    .appbar .active {
+        @apply bg-sky-600 shadow-sky-700
+    }
+}

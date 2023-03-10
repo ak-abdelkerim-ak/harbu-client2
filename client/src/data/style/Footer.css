@@ -1,0 +1,10 @@
+@layer components {
+    .footer {
+        @apply fixed bottom-0 left-0 right-0 p-2 bg-gray-900 text-white
+        flex  justify-center items-center
+    }
+
+    .footer p {
+        @apply p-2
+    }
+}
